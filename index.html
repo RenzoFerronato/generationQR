@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Roboto:wght@300;400&family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/99e8713dd5.js" crossorigin="anonymous"></script>
+    <title>Generation QR</title>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="qr.ico" type="image/png">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script defer src="app.js"></script>
+</head>
+
+<body>
+    
+    <div class="contenedor">
+        <h2>Cree y personalice su dinámico <br>
+        <span>QR code</span>
+        </h2>
+        <form action="" class="formulario" id="formulario">
+            <input type="text"id="link" placeholder="Escribi el texto o URL">
+            <button class="btn">Generar QR</button>
+        </form>
+        <div id="contenedorQR" class="contenedorQR"></div>
+    </div>
+
+</body>
+
+</html>

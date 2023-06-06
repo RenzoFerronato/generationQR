@@ -1,0 +1,59 @@
+body{
+    padding: 0;
+    margin: 0;
+    // font-family: 'Roboto Mono';
+    font-family: 'Michroma';
+    box-sizing: border-box;
+    background: url(textura.png);
+    // background-color: #1C4771;
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 150px;
+        h2{
+            font-weight: 100;
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 30px;
+            span{
+                color: blue;
+                color: #2323ffc9;
+                font-weight: 700;
+                font-size: 22px;
+            }
+        }
+        .formulario{
+            display: flex;
+            flex-direction: column  ;
+            input{
+                background-color: #ffffff;
+                // border-radius: 15px 15px 15px 15px;
+                padding: 15px 45px;
+                margin-bottom: 10px;
+                font-family: 'Michroma';
+                text-align: center;
+            }
+            button{
+                background: #000;
+                color: #fff;
+                border: none;
+                font-size: 15px;
+                font-family: 'Michroma';
+                border-radius: 3px;
+                padding: 13px 40px;
+                cursor: pointer;
+                width: 100%;
+                border: 0.5px solid white;
+            }
+        }
+        .contenedorQR{
+            display: flex;
+            /* flex-direction: column; */
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+    }
+}
